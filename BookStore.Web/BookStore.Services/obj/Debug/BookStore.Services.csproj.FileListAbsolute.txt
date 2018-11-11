@@ -1,0 +1,17 @@
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Services.dll.config
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Services.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Services.pdb
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Contract.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.EntityCore.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Repository.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\EntityFramework.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.EntityCore.pdb
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.EntityCore.dll.config
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Contract.pdb
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Repository.pdb
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\bin\Debug\BookStore.Repository.dll.config
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\obj\Debug\BookStore.Services.csprojResolveAssemblyReference.cache
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\obj\Debug\BookStore.Services.csproj.CoreCompileInputs.cache
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\obj\Debug\BookStore.Services.csproj.CopyComplete
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\obj\Debug\BookStore.Services.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.Services\obj\Debug\BookStore.Services.pdb

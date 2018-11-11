@@ -1,0 +1,143 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>SQL Uzklausos</h2>
+<h2>Kliento (id=1) uzsakymai</h2>
+<table class="table" id="SqlTask1">
+    <tr>
+        <th>
+            Uzsakymo nr
+        </th>
+        <th>
+            Uzsakymo data
+        </th>
+    </tr>
+</table>
+<h2>Klientai neturintys uzsakymu</h2>
+<table class="table" id="SqlTask2">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Vardas
+        </th>
+        <th>
+            Pavarde
+        </th>
+    </tr>
+</table>
+<h2>Klientu uzsakymu skaicius</h2>
+<table class="table" id="SqlTask3">
+    <tr>
+        <th>
+            Vardas Pavarde
+        </th>
+        <th>
+            Uzsakymu skaicius
+        </th>
+
+    </tr>
+</table>
+
+<h2>Klientu uzsakytu knygu skaicius</h2>
+<table class="table" id="SqlTask4">
+    <tr>
+        <th>
+            Vardas Pavarde
+        </th>
+        <th>
+            Knygu skaicius
+        </th>
+
+    </tr>
+</table>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $.ajax({
+            url: './Report/GetOrdersByCustId',
+            data: {
+                custId: 1
+            },
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                var trHTML = '';
+                $.each(data, function (i, item) {
+
+                    trHTML += '<tr><td>' + item.Id + '</td><td>' + ToJavaScriptDate(item.Date) + '</td></tr>';
+                });
+                $('#SqlTask1').append(trHTML);
+
+            },
+            error: function () {
+                console.log('error');
+            }
+        });
+        $.ajax({
+            url: './Report/GetCustomersWithoutOrders',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                var trHTML = '';
+                $.each(data, function (i, item) {
+
+                    trHTML += '<tr><td>' + item.Id + '</td><td>' + item.FirstName + '</td><td>' + item.LastName + '</td></tr>';
+                });
+                $('#SqlTask2').append(trHTML);
+
+            },
+            error: function () {
+                console.log('error');
+            }
+        });
+        $.ajax({
+            url: './Report/GetCustomersWithOrderCount',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                var trHTML = '';
+                $.each(data, function (i, item) {
+
+                    trHTML += '<tr><td>' + item.FullName + '</td><td>' + item.OrderCount + '</td></tr>';
+                });
+                $('#SqlTask3').append(trHTML);
+
+            },
+            error: function () {
+                console.log('error');
+            }
+        });
+        $.ajax({
+            url: './Report/GetCustomersWithBooksCount',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                var trHTML = '';
+                $.each(data, function (i, item) {
+
+                    trHTML += '<tr><td>' + item.FullName + '</td><td>' + item.BookCount + '</td></tr>';
+                });
+                $('#SqlTask4').append(trHTML);
+
+            },
+            error: function () {
+                console.log('error');
+            }
+        });
+
+    });
+    function ToJavaScriptDate(value) {
+        var pattern = /Date\(([^)]+)\)/;
+        var results = pattern.exec(value);
+        var dt = new Date(parseFloat(results[1]));
+
+        return dt.getFullYear() + "-" + (dt.getMonth() + 1) + "-" + dt.getDate();
+    }
+</script>

@@ -1,0 +1,103 @@
+﻿@model BookStore.Web.Models.ViewModels.OrderVM
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Užsakymas</h2>
+
+
+@Html.DropDownListFor(model=>model.CustomerId,ViewBag.CustomerList as SelectList,"--Pasirinkite", new { @class = "control-label col-md-2" })
+
+
+<table class="table" id="BooksTable">
+    <tr>
+        <th>
+            Pažymėti
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderItems.First().Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderItems.First().PublishDate)
+        </th>
+        <th>
+            Kiekis
+        </th>
+    </tr>
+
+    @foreach (var item in Model.OrderItems)
+    {
+        <tr>
+            <td>
+                <input type="checkbox" name="@item.Id" />
+
+            </td>
+            <td>
+                <span  class="NameVal" >
+                    @Html.DisplayFor(modelItem => item.Name)
+                    </span>
+
+            </td>
+            <td>
+                <span  class="PublishDateVal">
+                    @Html.DisplayFor(modelItem => item.PublishDate)
+                </span>
+            </td>
+            <td>
+
+                <input type="number" name="quantity" value="0" min="0">
+            </td>
+
+        </tr>
+    }
+</table>
+    <input type="button" value="Detail" id="OrderPostBtn" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+    $('#OrderPostBtn').click(function () { //On click of your button
+        var CustomerId = $('#CustomerId').val();
+        var OrderList = [];
+        //Get the values from the page you want to post
+        $('table tr').each(function (i) {
+            // Cache checkbox selector
+            var $chkbox = $(this).find('input[type="checkbox"]');
+            var $Quantity = $(this).find('input[type="number"]');
+            console.log($chkbox.is(':checked'));
+            if ($chkbox.is(':checked')  == true && $Quantity.val() > 0)
+            {
+                console.log('atejau');
+                var item = {
+                    Id: $chkbox.prop('name'),
+                    Name: $(this).find('.NameVal').text().trim(),
+                    PublishDate: $(this).find('.PublishDateVal').text().trim(),
+                    Quantity: $Quantity.val()
+                }
+                OrderList.push(item);
+            }
+                   
+        });
+        var JSONObject = { // Create JSON object to pass through AJAX
+            CustomerId: CustomerId, //Make sure these names match the properties in VM
+            OrderItems: OrderList
+        };
+        console.log(JSONObject);
+
+        if (JSONObject.CustomerId !== '' && JSONObject.OrderItems.length !== 0) {
+            $.ajax({ //Do an ajax post to the controller
+                type: 'POST',
+                url: './Create',
+                data: JSON.stringify(JSONObject),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    alert(data.success);
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
+        } else { alert('Ne visi laukai uzpildyti') }
+    });
+</script>
