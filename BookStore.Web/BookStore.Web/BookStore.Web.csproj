@@ -282,13 +282,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\New folder\BookStore.EntityCore\BookStore.EntityCore.csproj">
-      <Project>{a40b76d5-24c7-41d8-9aa6-daf116cc925e}</Project>
-      <Name>BookStore.EntityCore</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BookStore.Contract\BookStore.Contract.csproj">
       <Project>{952768D4-FC7E-430F-9B5F-3317F5813F9B}</Project>
       <Name>BookStore.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStore.EntityCore\BookStore.EntityCore.csproj">
+      <Project>{a40b76d5-24c7-41d8-9aa6-daf116cc925e}</Project>
+      <Name>BookStore.EntityCore</Name>
     </ProjectReference>
     <ProjectReference Include="..\BookStore.Repository\BookStore.Repository.csproj">
       <Project>{316363FF-F443-41F9-973D-7E3D3951E6CA}</Project>

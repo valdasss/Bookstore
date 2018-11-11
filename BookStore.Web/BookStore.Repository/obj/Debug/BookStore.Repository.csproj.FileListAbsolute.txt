@@ -12,3 +12,16 @@ C:\Users\bartk\source\repos\BookStore.Web\BookStore.Repository\obj\Debug\BookSto
 C:\Users\bartk\source\repos\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.csproj.CopyComplete
 C:\Users\bartk\source\repos\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.dll
 C:\Users\bartk\source\repos\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.pdb
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.Repository.dll.config
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.Repository.dll
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.Repository.pdb
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.Contract.dll
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.EntityCore.dll
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.Contract.pdb
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.EntityCore.pdb
+E:\Bookstore\BookStore.Web\BookStore.Repository\bin\Debug\BookStore.EntityCore.dll.config
+E:\Bookstore\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.csprojResolveAssemblyReference.cache
+E:\Bookstore\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.csproj.CoreCompileInputs.cache
+E:\Bookstore\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.csproj.CopyComplete
+E:\Bookstore\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.dll
+E:\Bookstore\BookStore.Web\BookStore.Repository\obj\Debug\BookStore.Repository.pdb

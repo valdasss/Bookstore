@@ -1,0 +1,58 @@
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll.config
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.pdb
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\bin\Debug\EntityFramework.dll
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\bin\Debug\EntityFramework.xml
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CoreCompileInputs.cache
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CopyComplete
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.dll
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.pdb
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.Migrations.First.resources
+c:\users\bartk\source\repos\BookStore\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.GenerateResource.cache
+C:\Users\bartk\source\repos\BookStore\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll.config
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.pdb
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CoreCompileInputs.cache
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CopyComplete
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.dll
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.pdb
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.Migrations.Init.resources
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.GenerateResource.cache
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\bin\Debug\BookStore.Contract.dll
+C:\Users\bartk\source\repos\New folder\BookStore.EntityCore\bin\Debug\BookStore.Contract.pdb
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll.config
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.pdb
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.Contract.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.Contract.pdb
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.xml
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csprojResolveAssemblyReference.cache
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.Migrations.Init.resources
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.GenerateResource.cache
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CoreCompileInputs.cache
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CopyComplete
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.dll
+C:\Users\bartk\source\repos\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.pdb
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll.config
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.dll
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.EntityCore.pdb
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.Contract.dll
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.dll
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.SqlServer.dll
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\BookStore.Contract.pdb
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.xml
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\bin\Debug\EntityFramework.SqlServer.xml
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csprojResolveAssemblyReference.cache
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.Migrations.Init.resources
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.GenerateResource.cache
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CoreCompileInputs.cache
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.csproj.CopyComplete
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.dll
+E:\Bookstore\BookStore.Web\BookStore.EntityCore\obj\Debug\BookStore.EntityCore.pdb

@@ -4,3 +4,9 @@ C:\Users\bartk\source\repos\BookStore.Web\BookStore.Contract\obj\Debug\BookStore
 C:\Users\bartk\source\repos\BookStore.Web\BookStore.Contract\obj\Debug\BookStore.Contract.dll
 C:\Users\bartk\source\repos\BookStore.Web\BookStore.Contract\obj\Debug\BookStore.Contract.pdb
 C:\Users\bartk\source\repos\BookStore.Web\BookStore.Contract\obj\Debug\BookStore.Contract.csprojResolveAssemblyReference.cache
+E:\Bookstore\BookStore.Web\BookStore.Contract\bin\Debug\BookStore.Contract.dll
+E:\Bookstore\BookStore.Web\BookStore.Contract\bin\Debug\BookStore.Contract.pdb
+E:\Bookstore\BookStore.Web\BookStore.Contract\obj\Debug\BookStore.Contract.csprojResolveAssemblyReference.cache
+E:\Bookstore\BookStore.Web\BookStore.Contract\obj\Debug\BookStore.Contract.csproj.CoreCompileInputs.cache
+E:\Bookstore\BookStore.Web\BookStore.Contract\obj\Debug\BookStore.Contract.dll
+E:\Bookstore\BookStore.Web\BookStore.Contract\obj\Debug\BookStore.Contract.pdb
